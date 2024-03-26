@@ -1,0 +1,30 @@
+[
+  {
+    "kind": "column",
+    "name": "Reorder Series",
+    "description": "Moves a number within a series up or down one index position and rearranges the series accordingly.",
+    "author": "Your Name <your@email.com>",
+    "params": [
+      {
+        "name": "series",
+        "displayName": "Series of Numbers",
+        "type": "string"
+      },
+      {
+        "name": "numberToMove",
+        "displayName": "Number to Move",
+        "type": "number"
+      },
+      {
+        "name": "direction",
+        "displayName": "Direction",
+        "type": "string",
+        "hint": "Enter 'up' to move the number up (decrease index) or 'down' to move it down (increase index)."
+      }
+    ],
+    "result": {
+      "type": "string",
+      "description": "The rearranged series of numbers as a string."
+    }
+  }
+]
